@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var meuLabel2: UILabel!
     
+    @IBOutlet weak var meuLabel3: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,6 +29,17 @@ class ViewController: UIViewController {
     @IBAction func exibir(_ sender: Any) {
         meuLabel1.text = "Filipe Pinato Aguiar"
         meuLabel2.text = "20 Anos"
+        meuLabel3.text = "Barueri - SP"
+    }
+    
+    
+    @IBAction func limpar(_ sender: Any) {
+        meuLabel1.text = ""
+        meuLabel2.text = ""
+        meuLabel3.text = ""
     }
 
+    @IBAction func inicio(_ sender: Any) {
+        self.viewDidLoad()
+    }
 }
