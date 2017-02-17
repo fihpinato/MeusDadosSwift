@@ -14,6 +14,8 @@
 		AC512E171E5721E20048393A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC512E151E5721E20048393A /* LaunchScreen.storyboard */; };
 		AC512E221E5721E20048393A /* Meus_Dados_2TJDATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC512E211E5721E20048393A /* Meus_Dados_2TJDATests.swift */; };
 		AC512E2D1E5721E20048393A /* Meus_Dados_2TJDAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC512E2C1E5721E20048393A /* Meus_Dados_2TJDAUITests.swift */; };
+		AC512E3B1E5731E70048393A /* foto3x4.png in Resources */ = {isa = PBXBuildFile; fileRef = AC512E3A1E5731E70048393A /* foto3x4.png */; };
+		AC512E3D1E5732310048393A /* fantasy750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = AC512E3C1E5732310048393A /* fantasy750x1334.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AC512E281E5721E20048393A /* Meus Dados 2TJDAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meus Dados 2TJDAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC512E2C1E5721E20048393A /* Meus_Dados_2TJDAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meus_Dados_2TJDAUITests.swift; sourceTree = "<group>"; };
 		AC512E2E1E5721E20048393A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC512E3A1E5731E70048393A /* foto3x4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foto3x4.png; sourceTree = "<group>"; };
+		AC512E3C1E5732310048393A /* fantasy750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fantasy750x1334.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				AC512E101E5721E20048393A /* Main.storyboard */,
 				AC512E131E5721E20048393A /* Assets.xcassets */,
 				AC512E151E5721E20048393A /* LaunchScreen.storyboard */,
+				AC512E3A1E5731E70048393A /* foto3x4.png */,
+				AC512E3C1E5732310048393A /* fantasy750x1334.png */,
 				AC512E181E5721E20048393A /* Info.plist */,
 			);
 			path = "Meus Dados 2TJDA";
@@ -233,6 +239,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC512E171E5721E20048393A /* LaunchScreen.storyboard in Resources */,
+				AC512E3B1E5731E70048393A /* foto3x4.png in Resources */,
+				AC512E3D1E5732310048393A /* fantasy750x1334.png in Resources */,
 				AC512E141E5721E20048393A /* Assets.xcassets in Resources */,
 				AC512E121E5721E20048393A /* Main.storyboard in Resources */,
 			);
