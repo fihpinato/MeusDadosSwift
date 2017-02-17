@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC512E0D1E5721E20048393A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC512E0C1E5721E20048393A /* AppDelegate.swift */; };
+		AC512E0F1E5721E20048393A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC512E0E1E5721E20048393A /* ViewController.swift */; };
+		AC512E121E5721E20048393A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC512E101E5721E20048393A /* Main.storyboard */; };
+		AC512E141E5721E20048393A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC512E131E5721E20048393A /* Assets.xcassets */; };
+		AC512E171E5721E20048393A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC512E151E5721E20048393A /* LaunchScreen.storyboard */; };
+		AC512E221E5721E20048393A /* Meus_Dados_2TJDATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC512E211E5721E20048393A /* Meus_Dados_2TJDATests.swift */; };
+		AC512E2D1E5721E20048393A /* Meus_Dados_2TJDAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC512E2C1E5721E20048393A /* Meus_Dados_2TJDAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC512E1E1E5721E20048393A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC512E011E5721E20048393A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC512E081E5721E20048393A;
+			remoteInfo = "Meus Dados 2TJDA";
+		};
+		AC512E291E5721E20048393A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC512E011E5721E20048393A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC512E081E5721E20048393A;
+			remoteInfo = "Meus Dados 2TJDA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC512E091E5721E20048393A /* Meus Dados 2TJDA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meus Dados 2TJDA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC512E0C1E5721E20048393A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC512E0E1E5721E20048393A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC512E111E5721E20048393A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC512E131E5721E20048393A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC512E161E5721E20048393A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC512E181E5721E20048393A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC512E1D1E5721E20048393A /* Meus Dados 2TJDATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meus Dados 2TJDATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC512E211E5721E20048393A /* Meus_Dados_2TJDATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meus_Dados_2TJDATests.swift; sourceTree = "<group>"; };
+		AC512E231E5721E20048393A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC512E281E5721E20048393A /* Meus Dados 2TJDAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meus Dados 2TJDAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC512E2C1E5721E20048393A /* Meus_Dados_2TJDAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meus_Dados_2TJDAUITests.swift; sourceTree = "<group>"; };
+		AC512E2E1E5721E20048393A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC512E061E5721E20048393A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC512E1A1E5721E20048393A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC512E251E5721E20048393A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC512E001E5721E20048393A = {
+			isa = PBXGroup;
+			children = (
+				AC512E0B1E5721E20048393A /* Meus Dados 2TJDA */,
+				AC512E201E5721E20048393A /* Meus Dados 2TJDATests */,
+				AC512E2B1E5721E20048393A /* Meus Dados 2TJDAUITests */,
+				AC512E0A1E5721E20048393A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC512E0A1E5721E20048393A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC512E091E5721E20048393A /* Meus Dados 2TJDA.app */,
+				AC512E1D1E5721E20048393A /* Meus Dados 2TJDATests.xctest */,
+				AC512E281E5721E20048393A /* Meus Dados 2TJDAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC512E0B1E5721E20048393A /* Meus Dados 2TJDA */ = {
+			isa = PBXGroup;
+			children = (
+				AC512E0C1E5721E20048393A /* AppDelegate.swift */,
+				AC512E0E1E5721E20048393A /* ViewController.swift */,
+				AC512E101E5721E20048393A /* Main.storyboard */,
+				AC512E131E5721E20048393A /* Assets.xcassets */,
+				AC512E151E5721E20048393A /* LaunchScreen.storyboard */,
+				AC512E181E5721E20048393A /* Info.plist */,
+			);
+			path = "Meus Dados 2TJDA";
+			sourceTree = "<group>";
+		};
+		AC512E201E5721E20048393A /* Meus Dados 2TJDATests */ = {
+			isa = PBXGroup;
+			children = (
+				AC512E211E5721E20048393A /* Meus_Dados_2TJDATests.swift */,
+				AC512E231E5721E20048393A /* Info.plist */,
+			);
+			path = "Meus Dados 2TJDATests";
+			sourceTree = "<group>";
+		};
+		AC512E2B1E5721E20048393A /* Meus Dados 2TJDAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC512E2C1E5721E20048393A /* Meus_Dados_2TJDAUITests.swift */,
+				AC512E2E1E5721E20048393A /* Info.plist */,
+			);
+			path = "Meus Dados 2TJDAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC512E081E5721E20048393A /* Meus Dados 2TJDA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC512E311E5721E20048393A /* Build configuration list for PBXNativeTarget "Meus Dados 2TJDA" */;
+			buildPhases = (
+				AC512E051E5721E20048393A /* Sources */,
+				AC512E061E5721E20048393A /* Frameworks */,
+				AC512E071E5721E20048393A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meus Dados 2TJDA";
+			productName = "Meus Dados 2TJDA";
+			productReference = AC512E091E5721E20048393A /* Meus Dados 2TJDA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC512E1C1E5721E20048393A /* Meus Dados 2TJDATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC512E341E5721E20048393A /* Build configuration list for PBXNativeTarget "Meus Dados 2TJDATests" */;
+			buildPhases = (
+				AC512E191E5721E20048393A /* Sources */,
+				AC512E1A1E5721E20048393A /* Frameworks */,
+				AC512E1B1E5721E20048393A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC512E1F1E5721E20048393A /* PBXTargetDependency */,
+			);
+			name = "Meus Dados 2TJDATests";
+			productName = "Meus Dados 2TJDATests";
+			productReference = AC512E1D1E5721E20048393A /* Meus Dados 2TJDATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC512E271E5721E20048393A /* Meus Dados 2TJDAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC512E371E5721E20048393A /* Build configuration list for PBXNativeTarget "Meus Dados 2TJDAUITests" */;
+			buildPhases = (
+				AC512E241E5721E20048393A /* Sources */,
+				AC512E251E5721E20048393A /* Frameworks */,
+				AC512E261E5721E20048393A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC512E2A1E5721E20048393A /* PBXTargetDependency */,
+			);
+			name = "Meus Dados 2TJDAUITests";
+			productName = "Meus Dados 2TJDAUITests";
+			productReference = AC512E281E5721E20048393A /* Meus Dados 2TJDAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC512E011E5721E20048393A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Filipe Pinato Aguiar";
+				TargetAttributes = {
+					AC512E081E5721E20048393A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC512E1C1E5721E20048393A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC512E081E5721E20048393A;
+					};
+					AC512E271E5721E20048393A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC512E081E5721E20048393A;
+					};
+				};
+			};
+			buildConfigurationList = AC512E041E5721E20048393A /* Build configuration list for PBXProject "Meus Dados 2TJDA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC512E001E5721E20048393A;
+			productRefGroup = AC512E0A1E5721E20048393A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC512E081E5721E20048393A /* Meus Dados 2TJDA */,
+				AC512E1C1E5721E20048393A /* Meus Dados 2TJDATests */,
+				AC512E271E5721E20048393A /* Meus Dados 2TJDAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC512E071E5721E20048393A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC512E171E5721E20048393A /* LaunchScreen.storyboard in Resources */,
+				AC512E141E5721E20048393A /* Assets.xcassets in Resources */,
+				AC512E121E5721E20048393A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC512E1B1E5721E20048393A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC512E261E5721E20048393A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC512E051E5721E20048393A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC512E0F1E5721E20048393A /* ViewController.swift in Sources */,
+				AC512E0D1E5721E20048393A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC512E191E5721E20048393A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC512E221E5721E20048393A /* Meus_Dados_2TJDATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC512E241E5721E20048393A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC512E2D1E5721E20048393A /* Meus_Dados_2TJDAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC512E1F1E5721E20048393A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC512E081E5721E20048393A /* Meus Dados 2TJDA */;
+			targetProxy = AC512E1E1E5721E20048393A /* PBXContainerItemProxy */;
+		};
+		AC512E2A1E5721E20048393A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC512E081E5721E20048393A /* Meus Dados 2TJDA */;
+			targetProxy = AC512E291E5721E20048393A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC512E101E5721E20048393A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC512E111E5721E20048393A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC512E151E5721E20048393A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC512E161E5721E20048393A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC512E2F1E5721E20048393A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC512E301E5721E20048393A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC512E321E5721E20048393A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meus Dados 2TJDA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filipe.Meus-Dados-2TJDA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC512E331E5721E20048393A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Meus Dados 2TJDA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filipe.Meus-Dados-2TJDA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC512E351E5721E20048393A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Meus Dados 2TJDATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filipe.Meus-Dados-2TJDATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meus Dados 2TJDA.app/Meus Dados 2TJDA";
+			};
+			name = Debug;
+		};
+		AC512E361E5721E20048393A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Meus Dados 2TJDATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filipe.Meus-Dados-2TJDATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meus Dados 2TJDA.app/Meus Dados 2TJDA";
+			};
+			name = Release;
+		};
+		AC512E381E5721E20048393A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Meus Dados 2TJDAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filipe.Meus-Dados-2TJDAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Meus Dados 2TJDA";
+			};
+			name = Debug;
+		};
+		AC512E391E5721E20048393A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Meus Dados 2TJDAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filipe.Meus-Dados-2TJDAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Meus Dados 2TJDA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC512E041E5721E20048393A /* Build configuration list for PBXProject "Meus Dados 2TJDA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC512E2F1E5721E20048393A /* Debug */,
+				AC512E301E5721E20048393A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC512E311E5721E20048393A /* Build configuration list for PBXNativeTarget "Meus Dados 2TJDA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC512E321E5721E20048393A /* Debug */,
+				AC512E331E5721E20048393A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC512E341E5721E20048393A /* Build configuration list for PBXNativeTarget "Meus Dados 2TJDATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC512E351E5721E20048393A /* Debug */,
+				AC512E361E5721E20048393A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC512E371E5721E20048393A /* Build configuration list for PBXNativeTarget "Meus Dados 2TJDAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC512E381E5721E20048393A /* Debug */,
+				AC512E391E5721E20048393A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC512E011E5721E20048393A /* Project object */;
+}
